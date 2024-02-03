@@ -28,6 +28,9 @@ class Fecha:
     def anios(self, anio):
         self.__anio = anio
 
+    def __str__(self):
+        return f"{self.__dia}/{self.__mes}/{self.__anio}"
+
     def valida(self):
         if (self.__dia < 1) or (self.__dia > 31):
             return False
@@ -67,6 +70,7 @@ class Fecha:
 if __name__ == '__main__':
     fecha = Fecha(12, 12, 1945)
 
+    print(fecha)
     if (fecha.valida()):
         print("fecha es valida")
     else:
