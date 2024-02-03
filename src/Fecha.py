@@ -68,7 +68,7 @@ class Fecha:
 
 
 if __name__ == '__main__':
-    fecha = Fecha(12, 12, 1945)
+    fecha = Fecha(03, 02, 2024)
 
     print(f"Fecha: {fecha}")
     if (fecha.valida()):

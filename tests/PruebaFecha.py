@@ -23,7 +23,7 @@ class PruebaFecha(unittest.TestCase):
             {"Case": "Caso 10", "dia": 29, "mes": 2, "anio": 2000, "correcto": True},
             {"Case": "Caso 11", "dia": 29, "mes": 2, "anio": 2007, "correcto": False},
             {"Case": "Caso 12", "dia": 29, "mes": 2, "anio": 1900, "correcto": False},
-
+			{"Case": "Caso 13", "dia": 03, "mes": 2, "anio": 2024, "correcto": True},
         )
         for item in items:
             with self.subTest(item["Case"]):
