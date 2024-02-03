@@ -70,7 +70,7 @@ class Fecha:
 if __name__ == '__main__':
     fecha = Fecha(03, 02, 2024)
 
-    print(f"Fecha: {fecha}")
+    print(f"Fecha a validar: {fecha}")
     if (fecha.valida()):
         print("fecha es valida")
     else:
